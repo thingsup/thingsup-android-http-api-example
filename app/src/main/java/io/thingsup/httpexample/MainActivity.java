@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     void request()
     {
-        String url = "https://api.thingsup.io/data/3p309x1kcaks5he/aj4v59";
+        String url = "https://api.thingsup.io/data/<AccountID>/<RuleID>";
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
                 (Request.Method.POST, url, null, new Response.Listener<JSONObject>() {
