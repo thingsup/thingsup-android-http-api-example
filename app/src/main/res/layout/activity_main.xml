@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Welcome to Thingsup !!!"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:background="#000"
+        android:id="@+id/textview"
+        android:layout_above="@id/sendButton"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Send"
+        android:id="@+id/sendButton"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+</RelativeLayout>
